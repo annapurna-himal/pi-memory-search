@@ -1,0 +1,24 @@
+{
+  "name": "memory-search",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Semantic memory search extension for Pi coding agent",
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "scripts": {
+    "test": "npx ts-node test/run-all.ts",
+    "test:integration": "npx ts-node test/integration-test.ts",
+    "test:bug": "npx ts-node test/bug-test.ts"
+  },
+  "dependencies": {
+    "@sinclair/typebox": "^0.34.48",
+    "openai": "^4.77.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
