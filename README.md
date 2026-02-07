@@ -1,6 +1,6 @@
 # pi-memory-search
 
-A semantic memory search extension for [Pi](https://github.com/badlogic/pi-mono) coding agent.
+A semantic memory search extension for [Pi](https://github.com/badlogic/pi-mono).
 
 Indexes Markdown files and session logs, generates OpenAI embeddings, and provides a `memory_search` tool the LLM can call to recall past conversations, decisions, and stored knowledge.
 
@@ -44,3 +44,5 @@ memory_search("what did we decide about the API design")
 ## License
 
 MIT
+
+## Part of [Himal](https://github.com/Aklaran/himal) 🏔️
